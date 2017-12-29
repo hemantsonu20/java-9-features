@@ -13,7 +13,7 @@ public class SetFactory {
 		ofArray();
 		immutableCheck();
 		noNullValue();
-		noDuplicates();
+		noDuplicatesAsUsual();
 	}
 
 	private static void of0() {
@@ -67,7 +67,7 @@ public class SetFactory {
 		}
 	}
 
-	private static void noDuplicates() {
+	private static void noDuplicatesAsUsual() {
 
 		try {
 			Set.of("One", "Two", "One");
